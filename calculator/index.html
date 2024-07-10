@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="input-wrap">
+        <div id="tmp"></div>
+        <div id="input"></div>
+      </div>
+      <div id="button-wrap">
+        <button onclick="hammasinOchir ()" id="all-clear">AC</button>
+        <button onclick="birsiniOchir ()" id="clear">C</button>
+        <button onclick="ekranaYoz (this.innerHTML)" id="sign">%</button>
+        <button onclick="ekranaYoz (this.innerHTML)" class="amt divide">/</button>
+
+        <button onclick="ekranaYoz (this.innerHTML)" class="number">7</button> 
+        <button onclick="ekranaYoz (this.innerHTML)" class="number">8</button>
+        <button onclick="ekranaYoz (this.innerHTML)" class="number">9</button>
+        <button onclick="ekranaYoz (this.innerHTML)" class="amt times">*</button>
+
+        <button onclick="ekranaYoz (this.innerHTML)" class="number">4</button>
+        <button onclick="ekranaYoz (this.innerHTML)" class="number">5</button>
+        <button onclick="ekranaYoz (this.innerHTML)" class="number">6</button>
+        <button onclick="ekranaYoz (this.innerHTML)" class="amt minus">-</button>
+
+        <button onclick="ekranaYoz (this.innerHTML)" class="number">1</button>
+        <button onclick="ekranaYoz (this.innerHTML)" class="number">2</button>
+        <button onclick="ekranaYoz (this.innerHTML)" class="number">3</button>
+        <button onclick="ekranaYoz (this.innerHTML)" class="amt plus">+</button>
+
+        <button onclick="ekranaYoz (this.innerHTML)" class="number num-0">0</button>
+        <button onclick="ekranaYoz (this.innerHTML)" id="dot">,</button>
+        <button onclick="hisobla ()" id="result">=</button>
+      </div>
+    </div>
+<script src="script.js"></script>
+  </body>
+</html>
